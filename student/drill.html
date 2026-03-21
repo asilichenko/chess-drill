@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шаховий тренажер</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=JetBrains+Mono:wght@400;600&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="css/student.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div style="max-width:1060px; margin: 20px auto 0;">
+        <div class="turn-info" id="turn-info">&nbsp;</div>
+    </div>
+
+    <div class="layout">
+
+        <!-- ══ Ліва колонка ══ -->
+        <div class="left-col">
+
+            <div id="board-wrap">
+                <!-- Шаблон стрілки -->
+                <svg id="arrow-svg" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg"></svg>
+                <!-- Дошка -->
+                <div id="board"></div>
+            </div>
+
+            <!-- Тулбар -->
+            <div class="board-bar card">
+                <button id="open-btn" class="btn btn-outline" title="Відкрити файл з вправами" onclick="Game.load()">
+                    <i class="fa-regular fa-folder-open"></i>
+                </button>
+
+                <button id="restart-btn" style="display: none;" class="btn btn-gold" onclick="Game.restart()"
+                    title="Почати заново (статистика зберігається)" style="display: none;">
+                    ↺ Спочатку
+                </button>
+
+                <button id="act-continue" style="display: none;" class="btn btn-outline"
+                    onclick="Game.continueOpponentMove()">
+                    ▶ Продовжити
+                </button>
+
+                <button id="act-undo" style="display: none;" class="btn btn-outline" onclick="Game.undoMove()">
+                    ◄ Відмінити
+                </button>
+
+                <button id="act-back" style="display: none;" class="btn btn-outline" onclick="Game.back()"
+                    title="Повторити хід опонента">
+                    <i class="fa-solid fa-backward"></i>
+                </button>
+
+                <div class="spacer"></div>
+
+                <button id="hint-btn" title="Показати підказку" onclick="UI.showHint()" class="btn btn-outline"
+                    style="display: none;">
+                    💡 Підказка
+                </button>
+            </div>
+
+        </div><!-- /left -->
+
+        <!-- ══ Права колонка ══ -->
+        <div class="right-col">
+
+            <h1 id="app-title" title="Назва уроку">Шаховий тренажер</h1>
+
+            <!-- FEN -->
+            <div class="card">
+                <div class="field-lbl">FEN</div>
+                <div style="display:flex; gap:6px; align-items:center;">
+                    <input class="mono-out" id="fen-out" readonly style="flex:1">
+                    <button class="btn-copy" onclick="UI.copy('fen-out', this)" title="Копіювати FEN">
+                        <i class="fa-regular fa-copy"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Статистика сесії -->
+            <div class="card">
+                <div class="field-lbl">📊 Сесія</div>
+                <div class="session-stats">
+                    <span>Ігор: <strong id="sc-attempts">0</strong></span>
+                    <span>Успішних: <strong id="sc-success" class="val-green">0</strong></span>
+                    <span>Помилки: <strong id="sc-mistakes" class="val-red">0</strong></span>
+                    <span>Підказки: <strong id="sc-hints" class="val-yellow">0</strong></span>
+                    <span>Точність: <strong id="sc-pct">—</strong></span>
+
+                    <div class="spacer"></div>
+
+                    <button id="reset-stats-btn" class="btn btn-danger" title="Очистити статистику"
+                        onclick="Game.resetStats()" style="display: none;">
+                        <i class="fa-solid fa-arrow-rotate-left"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Коментар вчителя -->
+            <div class="card">
+                <div class="field-lbl">🎓 Вчитель</div>
+                <textarea id="comment-out" class="text-out" readonly rows="4" autocomplete="off"
+                    placeholder="Тут з'явиться коментар вчителя...">Натисність кнопку "Відкрити", щоб завантажити урок.</textarea>
+
+                <!-- Текст підказки -->
+                <div id="hint-card" style="display:none; padding-top: 15px;">
+                    <div class="field-lbl">💡 Підказка</div>
+                    <textarea id="hint-out" class="text-out" readonly rows="3"></textarea>
+                </div>
+            </div>
+
+            <!-- Статистика варіантів -->
+            <!-- todo: remove -->
+            <div class="card" id="stats-card" style="display: none;">
+                <div class="field-lbl">📈 Статистика варіантів</div>
+                <div class="panel-block-inner">
+                    <table class="stats-table">
+                        <thead>
+                            <tr>
+                                <th>№</th>
+                                <th class="num">Ігри</th>
+                                <th class="num">Помилки</th>
+                                <th class="num">✓</th>
+                            </tr>
+                        </thead>
+                        <tbody id="stats-body"></tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div><!-- /right -->
+
+    </div><!-- /layout -->
+
+    <!-- ══ PROMOTION MODAL ══ -->
+    <div class="overlay" id="promo-modal">
+        <div class="modal" style="text-align:center;min-width:280px">
+            <h2>Оберіть фігуру</h2>
+            <div id="promo-row" class="promo-row"></div>
+        </div>
+    </div>
+
+    <!-- ══ CHESS.JS ══ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+    <!-- ══ JQUERY ══ -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="js/student.js"></script>
+    <script src="js/startup.js"></script>
+
+</body>
+
+</html>

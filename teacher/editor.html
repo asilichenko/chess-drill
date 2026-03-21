@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Конструктор шахових уроків</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=JetBrains+Mono:wght@400;600&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link href="css/teacher.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <h1 id="app-title" title="Двічі клікніть для редагування" ondblclick="UI.editTitle()">Новий урок</h1>
+
+  <!-- Верхня частина -->
+  <div style="max-width:1060px; margin: 20px auto 0;">
+    <!-- Хто зараз ходить -->
+    <div class="turn-info" id="turn-info"></div>
+  </div>
+
+  <!-- ══ Середня частина по вертикалі ══ -->
+  <div class="layout">
+
+    <!-- ══ Ліва колонка ══ -->
+    <div class="left-col">
+
+      <!-- Дошка -->
+      <div id="board-wrap">
+
+        <!-- Шаблон стрілки -->
+        <svg id="arrow-svg" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg"></svg>
+
+        <div id="board"></div>
+
+      </div>
+
+      <!-- Тулбар дошки -->
+      <div class="board-bar">
+        <button class="btn btn-gold" onclick="UI.showNewLesson()">Новий урок</button>
+        <button class="btn btn-outline" title="Завантажити урок" onclick="UI.load()">
+          <i class="fa-regular fa-folder-open"></i>
+        </button>
+        <button class="btn btn-outline" title="Зберегти урок" onclick="UI.save()">
+          <i class="fa-regular fa-floppy-disk"></i>
+        </button>
+
+        <div class="spacer"></div>
+
+        <button class="btn btn-outline" title="На початок  (Home)" onclick="Nav.toStart()"><i
+            class="fa-solid fa-backward-step"></i></button>
+        <button class="btn btn-outline" title="Крок назад  (←)" onclick="Nav.back()"><i
+            class="fa-solid fa-chevron-left"></i></button>
+        <button class="btn btn-danger" title="Видалити крок (Del)" onclick="Nav.del()"><i
+            class="fa-solid fa-trash"></i></button>
+      </div>
+
+    </div><!-- /left -->
+
+    <!-- ══ Права колонка ══ -->
+    <div class="right-col">
+
+      <!-- Коментар -->
+      <div class="card">
+        <div class="field-lbl">🎓 Коментар</div>
+        <textarea id="comment-in" class="text-in"
+          placeholder="Коментар до позиції, ходу або вказівки щодо продовження..." rows="4"></textarea>
+      </div>
+
+      <!-- Варіанти -->
+      <div class="card">
+        <div class="field-lbl"
+          style="margin-bottom:0;font-size:11px;color:var(--text2);letter-spacing:.06em;text-transform:uppercase">
+          Варіанти далі</div>
+        <div id="var-row" class="var-row"></div>
+      </div>
+
+      <!-- Позначка чи правильний хід -->
+      <div class="card" id="correct-card" style="display:none">
+        <div class="correct-row">
+          <span class="correct-lbl">Правильність ходу:</span>
+          <div id="correct-box" class="correct-box sn" onclick="Actions.cycleCorrect()"
+            title="Перемикач: Null → ✓ Правильно → ✗ Неправильно">○</div>
+        </div>
+      </div>
+
+      <!-- Підказка -->
+      <div class="card" id="hint-card" style="display:none">
+        <div class="field-lbl">💡 Підказка</div>
+        <textarea id="hint-in" class="text-in" placeholder="Підказка щодо продовження..." rows="3"></textarea>
+      </div>
+
+    </div><!-- /right -->
+
+  </div><!-- /layout -->
+
+  <!-- FEN/PGN/JSON -->
+  <div style="max-width:1060px; margin: 20px auto 0;">
+    <div class="card">
+
+      <div class="field-lbl">FEN / PGN / JSON</div>
+
+      <div id="fen-body">
+
+        <div class="mono-lbl">FEN</div>
+        <div style="display:flex; gap:6px; align-items:center;">
+          <input class="mono-in" id="fen-out" readonly style="flex:1">
+          <button class="btn-copy" onclick="UI.copy('fen-out', this)" title="Копіювати FEN">
+            <i class="fa-regular fa-copy"></i>
+          </button>
+        </div>
+
+        <div class="mono-lbl" style="margin-top:9px">PGN</div>
+        <div style="display:flex; gap:6px; align-items:center;">
+          <!-- <input class="mono-in" id="pgn-out" readonly style="flex:1"> -->
+          <textarea id="pgn-out" class="textarea-out" readonly spellcheck="false"></textarea>
+          <button class="btn-copy" onclick="UI.copy('pgn-out', this)" title="Копіювати PGN">
+            <i class="fa-regular fa-copy"></i>
+          </button>
+        </div>
+
+        <div class="mono-lbl" style="margin-top:9px">JSON</div>
+        <div style="display:flex; gap:6px; align-items:center;">
+          <textarea id="json-out" class="textarea-out" readonly spellcheck="false"></textarea>
+          <button class="btn-copy" onclick="UI.copy('json-out', this)" title="Копіювати JSON">
+            <i class="fa-regular fa-copy"></i>
+          </button>
+        </div>
+
+      </div><!-- /fen-body -->
+
+    </div><!-- /card -->
+  </div>
+
+  <!-- ══ Вікно створення нового уроку ══ -->
+  <div class="overlay" id="new-modal">
+    <div class="modal">
+      <h2>Новий урок</h2>
+
+      <div class="mf">
+        <label>Назва</label>
+        <input type="text" id="nl-name" placeholder="Назва уроку...">
+      </div>
+
+      <div class="mf">
+        <label>Студент грає</label>
+        <div class="radio-row">
+          <label><input type="radio" name="nl-color" value="w" checked> ♔ За білих</label>
+          <label><input type="radio" name="nl-color" value="b"> ♚ За чорних</label>
+        </div>
+        <div style="font-size:11px; color:var(--text3); margin-top:4px">
+          * При імпорті JSON ігнорується — береться зі збереженого уроку
+        </div>
+      </div>
+
+      <div class="mf">
+        <label>Позиція / імпорт (FEN, PGN або JSON — необов'язково)</label>
+        <textarea id="nl-import" spellcheck="false" rows="4"
+          placeholder="Залиште порожнім для стандартної позиції, або вставте FEN / PGN / JSON..."></textarea>
+      </div>
+      <div id="nl-err" class="err-msg" style="display:none"></div>
+
+
+      <div class="modal-actions">
+        <button class="btn-cancel" onclick="UI.closeModal('new-modal')">Скасувати</button>
+        <button class="btn-ok" onclick="Actions.createLesson()">Створити</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ══ PROMOTION MODAL ══ -->
+  <!-- ══ коли пішак досягає крайнього ряду ══ -->
+  <div class="overlay" id="promo-modal">
+    <div class="modal" style="text-align:center;min-width:280px">
+      <h2>Оберіть фігуру</h2>
+      <div id="promo-row" class="promo-row"></div>
+    </div>
+  </div>
+
+
+  <!-- ══ CHESS.JS ══ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+
+  <script src="js/teacher.js"></script>
+
+</body>
+
+</html>
