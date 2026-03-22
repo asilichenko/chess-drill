@@ -1,4 +1,4 @@
-# chess-drill
+# [chess-drill](https://asilichenko.github.io/chess-drill)
 Шаховий тренажер
 
 - [Конструктор уроків для вчителя](teacher/editor.html)
