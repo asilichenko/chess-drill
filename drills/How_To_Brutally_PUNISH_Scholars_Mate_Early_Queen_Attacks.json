@@ -191,7 +191,7 @@
                                                                                             "variations": [
                                                                                               {
                                                                                                 "move": "d4e2",
-                                                                                                "comment": "Тут суперник здався!\nМатеріальна перевага: Пішак, Кінь, Ферзь = 13"
+                                                                                                "comment": "Тут суперник здався!\nhttps://www.chess.com/game/live/166860133520?move=24\n\nМатеріальна перевага: Пішак, Кінь, Ферзь = 13"
                                                                                               }
                                                                                             ]
                                                                                           }
@@ -200,6 +200,42 @@
                                                                                     ]
                                                                                   }
                                                                                 ]
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "move": "d7d5",
+                                                        "comment": "Гарний хід, але в реальній грі було зіграно інакше.",
+                                                        "correct": true,
+                                                        "variations": [
+                                                          {
+                                                            "move": "d2d3",
+                                                            "variations": [
+                                                              {
+                                                                "move": "d5e4",
+                                                                "variations": [
+                                                                  {
+                                                                    "move": "d3e4",
+                                                                    "variations": [
+                                                                      {
+                                                                        "move": "f6e4",
+                                                                        "variations": [
+                                                                          {
+                                                                            "move": "c3e3",
+                                                                            "variations": [
+                                                                              {
+                                                                                "move": "e4d6",
+                                                                                "comment": "Оцінка позиції: -2,9."
                                                                               }
                                                                             ]
                                                                           }
