@@ -142,6 +142,86 @@
                                         ]
                                       }
                                     ]
+                                  },
+                                  {
+                                    "move": "c4b3",
+                                    "comment": "Реальна гра:\nhttps://www.chess.com/game/live/166860133520?move=9",
+                                    "variations": [
+                                      {
+                                        "move": "f8g7",
+                                        "variations": [
+                                          {
+                                            "move": "f3c3",
+                                            "variations": [
+                                              {
+                                                "move": "e8g8",
+                                                "variations": [
+                                                  {
+                                                    "move": "g1f3",
+                                                    "variations": [
+                                                      {
+                                                        "move": "f6e4",
+                                                        "variations": [
+                                                          {
+                                                            "move": "c3c4",
+                                                            "variations": [
+                                                              {
+                                                                "move": "d7d5",
+                                                                "variations": [
+                                                                  {
+                                                                    "move": "c4c5",
+                                                                    "variations": [
+                                                                      {
+                                                                        "move": "e4c5",
+                                                                        "variations": [
+                                                                          {
+                                                                            "move": "e1g1",
+                                                                            "variations": [
+                                                                              {
+                                                                                "move": "e5e4",
+                                                                                "variations": [
+                                                                                  {
+                                                                                    "move": "f3d4",
+                                                                                    "variations": [
+                                                                                      {
+                                                                                        "move": "c6d4",
+                                                                                        "variations": [
+                                                                                          {
+                                                                                            "move": "c2c3",
+                                                                                            "variations": [
+                                                                                              {
+                                                                                                "move": "d4e2",
+                                                                                                "comment": "Тут суперник здався!\nМатеріальна перевага: Пішак, Кінь, Ферзь = 13"
+                                                                                              }
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      }
+                                                                                    ]
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
                                   }
                                 ]
                               }
