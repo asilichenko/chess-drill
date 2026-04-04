@@ -67,9 +67,17 @@
 
 ## 🔗 Демо
 
-Урок з дитячого мату:
+### Урок з дитячого мату
 
 <img width="600px" alt="дитячий мат" src="https://github.com/user-attachments/assets/89da16b5-c5cb-401e-a06b-14d544520747"/>
+
+### Реальна партія
+
+В цій партії мені вдалося виграти, ба більше - покарати гравця, який грозився дитячим матом, а все завдяки 20-хвилинному тренуванню на цьому тренажері.
+
+<img width="300px" alt="2026-04-04-punich-scholars-mate" src="https://github.com/user-attachments/assets/a7c0d175-e430-45c6-923e-e1889a58d9e8"/>
+
+Файл на якому я тренувався: [How_To_Brutally_PUNISH_Scholars_Mate_Early_Queen_Attacks.json](drills/How_To_Brutally_PUNISH_Scholars_Mate_Early_Queen_Attacks.json)
 
 ## 📄 Ліцензія
 
