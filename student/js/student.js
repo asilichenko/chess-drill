@@ -560,7 +560,7 @@ const Game = {
     resetStats() {
         if (!confirm('Скинути всю статистику?')) return;
         S.stats = { attempts: 0, success: 0, hints: 0, mistakes: 0 };
-        S.varStats = {};
+        S.varStats = { mistakes: 0 };
         Panel.updateStats();
     },
 
