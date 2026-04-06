@@ -1,0 +1,808 @@
+{
+  "name": "How To PUNISH Fried Liver Attack Opening",
+  "student": "b",
+  "start_pos": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+  "comment": "https://www.youtube.com/watch?v=alyQqSxIW44",
+  "root": {
+    "move": "e2e4",
+    "variations": [
+      {
+        "move": "e7e5",
+        "variations": [
+          {
+            "move": "g1f3",
+            "variations": [
+              {
+                "move": "b8c6",
+                "variations": [
+                  {
+                    "move": "f1c4",
+                    "variations": [
+                      {
+                        "move": "g8f6",
+                        "variations": [
+                          {
+                            "move": "f3g5",
+                            "variations": [
+                              {
+                                "move": "h7h6",
+                                "comment": "Цим ходом ви Коня не налякаєте.",
+                                "correct": false,
+                                "variations": [
+                                  {
+                                    "move": "g5f7",
+                                    "comment": "Вилка на Туру і Королеву.\nМи не можемо забрати Коня Королем, тому що Кінь охороняється Офіцером."
+                                  }
+                                ]
+                              },
+                              {
+                                "move": "d8e7",
+                                "comment": "Думаєте Королева завадить Коню вторгнутися?",
+                                "correct": false,
+                                "variations": [
+                                  {
+                                    "move": "g5f7",
+                                    "comment": "Ми втратимо Туру, тому що Кінь охороняється Офіцером і вам не варто віддавати Королеву (9) за Коня (3) і Офіцера (3), зберігши Туру і втративши право рокіровки."
+                                  }
+                                ]
+                              },
+                              {
+                                "move": "d7d5",
+                                "comment": "Єдиний правильний хід за Чорних в цій позиції.",
+                                "correct": true,
+                                "variations": [
+                                  {
+                                    "move": "g5f7",
+                                    "variations": [
+                                      {
+                                        "move": "e8f7",
+                                        "comment": "Ви втратили Пішака, але отримали гарну компенсацію у вигляді Коня і більш розвиненої позиції.",
+                                        "correct": true
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "move": "e4d5",
+                                    "comment": "А от тепер, поки ворожий Офіцер заблокований власним Пішаком, ми маємо чудову нагоду виконати зворотну атаку.",
+                                    "hint": "Атакуйте Конем.",
+                                    "variations": [
+                                      {
+                                        "move": "c6d4",
+                                        "correct": true,
+                                        "variations": [
+                                          {
+                                            "move": "d5d6",
+                                            "comment": "Найчастіше Білі відповідатимуть саме цим ходом, сподіваючись на продовження своєї атаки.",
+                                            "variations": [
+                                              {
+                                                "move": "c7d6",
+                                                "correct": false,
+                                                "variations": [
+                                                  {
+                                                    "move": "c4f7",
+                                                    "variations": [
+                                                      {
+                                                        "move": "e8e7",
+                                                        "variations": [
+                                                          {
+                                                            "move": "c2c3",
+                                                            "variations": [
+                                                              {
+                                                                "move": "d4c6",
+                                                                "variations": [
+                                                                  {
+                                                                    "move": "f7b3",
+                                                                    "comment": "Ваш Король відійшов від краю, ви втратили Пішака."
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "move": "d8d6",
+                                                "correct": true,
+                                                "variations": [
+                                                  {
+                                                    "move": "c4f7",
+                                                    "comment": "Цей хід менш популярний, лише 18%.",
+                                                    "variations": [
+                                                      {
+                                                        "move": "e8e7",
+                                                        "variations": [
+                                                          {
+                                                            "move": "e1g1",
+                                                            "comment": "Частота цього ходу: 11%, але після цього Чорні частіше виграють: 71%.",
+                                                            "variations": [
+                                                              {
+                                                                "move": "h7h6",
+                                                                "comment": "Тепер Білі втратять або Коня, або Офіцера, на додачу до Пішака.\nХоча ви і втратили право рокіровки, однак отримали досить непогану компенсацію за це. Плюс, на відміну від опонента, ваші фігури більше розвинені на полі.",
+                                                                "correct": true
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "move": "f7b3",
+                                                            "comment": "Цей хід з іншого відео: https://www.youtube.com/watch?v=mvNr0cpnaYE\nЗустрічається найчастіше: 42%, з перевагою Білих.",
+                                                            "variations": [
+                                                              {
+                                                                "move": "d4b3",
+                                                                "correct": true,
+                                                                "variations": [
+                                                                  {
+                                                                    "move": "a2b3",
+                                                                    "hint": "Женіть ворожого Коня.",
+                                                                    "variations": [
+                                                                      {
+                                                                        "move": "h7h6",
+                                                                        "correct": true,
+                                                                        "variations": [
+                                                                          {
+                                                                            "move": "g5f3",
+                                                                            "hint": "Женіть Коня далі.",
+                                                                            "variations": [
+                                                                              {
+                                                                                "move": "e5e4",
+                                                                                "variations": [
+                                                                                  {
+                                                                                    "move": "f3h4",
+                                                                                    "hint": "Продовжуйте тиск на Коня.",
+                                                                                    "variations": [
+                                                                                      {
+                                                                                        "move": "g7g5",
+                                                                                        "comment": "Кінь у пастці.",
+                                                                                        "correct": true
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  {
+                                                                                    "move": "f3g1"
+                                                                                  },
+                                                                                  {
+                                                                                    "move": "d1e2",
+                                                                                    "comment": "Білі зв'язали нашого Пішака.",
+                                                                                    "hint": "Ховайте Короля. Наш Пішак захищений Конем.",
+                                                                                    "variations": [
+                                                                                      {
+                                                                                        "move": "e7f7",
+                                                                                        "correct": true
+                                                                                      }
+                                                                                    ]
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              },
+                                                              {
+                                                                "move": "d6c6",
+                                                                "comment": "В цій позиції не варто робити цей хід, бо тут він не працює і призводить до переваги Білих, тільки якщо Білі не припустяться грубої помилки.\n\nТому варто уникати.",
+                                                                "correct": false
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "move": "f7c4",
+                                                            "comment": "Другий за популярністю хід: 28%, перевага за Чорних: 71%.\nОфіцер ніким не захищений, тож цей хід марнує темп за Білих.",
+                                                            "variations": [
+                                                              {
+                                                                "move": "d6c6",
+                                                                "comment": "Тут ми не тільки атакуємо Офіцера, але на додачу - поле g2.\nАтаку на поле g2 можна побачити в іншому розгалуженні, тут чорні мають значну перевагу.",
+                                                                "correct": true
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "move": "g5f7",
+                                                    "comment": "Частіше за все, ви стикнетесь саме з цією відповіддю (80%), адже тепер Кінь тримає вилку на Туру і Королеву. І для вас то найкраще.",
+                                                    "hint": "Мабуть, втрачати Королеву не варто, тому знайдіть загрозу відіграти Туру.",
+                                                    "variations": [
+                                                      {
+                                                        "move": "d6c6",
+                                                        "comment": "Врятувавши Королеву, ви жертвуєте Турою, однак, ви створили загрозу ворожій Турі.",
+                                                        "correct": true,
+                                                        "variations": [
+                                                          {
+                                                            "move": "f7h8",
+                                                            "comment": "Білі вважають, що готові до обміну. Ох, як же вони помиляються...",
+                                                            "hint": "Атакуйте ворожу Туру.",
+                                                            "variations": [
+                                                              {
+                                                                "move": "c6g2",
+                                                                "comment": "У Білих ВЕЛИЧЕЗНІ проблеми!",
+                                                                "correct": true,
+                                                                "variations": [
+                                                                  {
+                                                                    "move": "h1f1",
+                                                                    "variations": [
+                                                                      {
+                                                                        "move": "g2e4",
+                                                                        "variations": [
+                                                                          {
+                                                                            "move": "c4e2",
+                                                                            "comment": "Недосвічені гравці вважають, що таким чином вони захистять Короля і не втратять Королеву.",
+                                                                            "hint": "Що тут сказати, робіть \"хід Конем\"!",
+                                                                            "variations": [
+                                                                              {
+                                                                                "move": "d4f3",
+                                                                                "correct": true
+                                                                              }
+                                                                            ]
+                                                                          },
+                                                                          {
+                                                                            "move": "d1e2",
+                                                                            "variations": [
+                                                                              {
+                                                                                "move": "d4e2",
+                                                                                "variations": [
+                                                                                  {
+                                                                                    "move": "c4e2",
+                                                                                    "comment": "Оцінка позиції: -5,5."
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              },
+                                                              {
+                                                                "move": "c6c4",
+                                                                "comment": "Гей, навіщо вам той Офіцер? Ви проґавили можливість створити проблеми ворожому Королю!",
+                                                                "correct": false
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "move": "c2c3",
+                                            "variations": [
+                                              {
+                                                "move": "b7b5",
+                                                "variations": [
+                                                  {
+                                                    "move": "c3d4",
+                                                    "variations": [
+                                                      {
+                                                        "move": "b5c4",
+                                                        "variations": [
+                                                          {
+                                                            "move": "d4e5",
+                                                            "variations": [
+                                                              {
+                                                                "move": "f6d5",
+                                                                "correct": false,
+                                                                "variations": [
+                                                                  {
+                                                                    "move": "d1h5"
+                                                                  }
+                                                                ]
+                                                              },
+                                                              {
+                                                                "move": "d8d5",
+                                                                "correct": true,
+                                                                "variations": [
+                                                                  {
+                                                                    "move": "e5f6",
+                                                                    "variations": [
+                                                                      {
+                                                                        "move": "d5g5",
+                                                                        "comment": "Ви створили тиск на поле g2.",
+                                                                        "variations": [
+                                                                          {
+                                                                            "move": "e1g1",
+                                                                            "comment": "Опонент вирішив захистити слабке поле g2 рокіровкою.",
+                                                                            "hint": "Посильте тиск на g2 за допомогою Офіцера.",
+                                                                            "variations": [
+                                                                              {
+                                                                                "move": "c8b7",
+                                                                                "comment": "Грозить мат Білим.",
+                                                                                "correct": true,
+                                                                                "variations": [
+                                                                                  {
+                                                                                    "move": "g2g3",
+                                                                                    "comment": "Білі рятуються від мату.\nДля нас виглядає цікавою біла діагональ a-1, але відкладіть цю ідею трохи на пізніше.",
+                                                                                    "hint": "Сховайте свого Короля, створіть тиск на Білу Королеву.\nАбо відіграйте втраченого Пішака, якщо вас це турбує.",
+                                                                                    "variations": [
+                                                                                      {
+                                                                                        "move": "e8c8",
+                                                                                        "comment": "Ви захистили Короля і створили тиск на Білу Королеву.",
+                                                                                        "correct": true,
+                                                                                        "variations": [
+                                                                                          {
+                                                                                            "move": "f6g7",
+                                                                                            "comment": "Жахливий хід, однак ви скоріш за все побачите саме його.",
+                                                                                            "variations": [
+                                                                                              {
+                                                                                                "move": "f8g7",
+                                                                                                "variations": [
+                                                                                                  {
+                                                                                                    "move": "b1c3",
+                                                                                                    "variations": [
+                                                                                                      {
+                                                                                                        "move": "g5f5",
+                                                                                                        "variations": [
+                                                                                                          {
+                                                                                                            "move": "a2a3",
+                                                                                                            "variations": [
+                                                                                                              {
+                                                                                                                "move": "b7f3",
+                                                                                                                "variations": [
+                                                                                                                  {
+                                                                                                                    "move": "d1e1",
+                                                                                                                    "variations": [
+                                                                                                                      {
+                                                                                                                        "move": "f5h3",
+                                                                                                                        "variations": [
+                                                                                                                          {
+                                                                                                                            "move": "e1e6",
+                                                                                                                            "variations": [
+                                                                                                                              {
+                                                                                                                                "move": "f7e6",
+                                                                                                                                "comment": "Білі нічого більше не можуть зробити. Мат в 1 хід."
+                                                                                                                              }
+                                                                                                                            ]
+                                                                                                                          }
+                                                                                                                        ]
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                ]
+                                                                                                              }
+                                                                                                            ]
+                                                                                                          }
+                                                                                                        ]
+                                                                                                      }
+                                                                                                    ]
+                                                                                                  }
+                                                                                                ]
+                                                                                              }
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      },
+                                                                                      {
+                                                                                        "move": "g5f6",
+                                                                                        "comment": "Ви маєте більш вигідну позицію.\nОцінка: -2,2.",
+                                                                                        "correct": true
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  {
+                                                                                    "move": "f1e1",
+                                                                                    "variations": [
+                                                                                      {
+                                                                                        "move": "e8d7",
+                                                                                        "variations": [
+                                                                                          {
+                                                                                            "move": "d1a4",
+                                                                                            "variations": [
+                                                                                              {
+                                                                                                "move": "b7c6"
+                                                                                              }
+                                                                                            ]
+                                                                                          },
+                                                                                          {
+                                                                                            "move": "g2g3",
+                                                                                            "variations": [
+                                                                                              {
+                                                                                                "move": "g5d5",
+                                                                                                "variations": [
+                                                                                                  {
+                                                                                                    "move": "f2f3",
+                                                                                                    "variations": [
+                                                                                                      {
+                                                                                                        "move": "f8c5",
+                                                                                                        "variations": [
+                                                                                                          {
+                                                                                                            "move": "g1g2",
+                                                                                                            "variations": [
+                                                                                                              {
+                                                                                                                "move": "a8e8",
+                                                                                                                "comment": "Іншою Турою також можна походити, але продовження буде тільки в цій гілці.\nЗагроза Пішаком на f6 не є серйозною, оскільки Білим буде ніколи її реалізовувати.",
+                                                                                                                "correct": true,
+                                                                                                                "variations": [
+                                                                                                                  {
+                                                                                                                    "move": "a2a3",
+                                                                                                                    "variations": [
+                                                                                                                      {
+                                                                                                                        "move": "e8e1",
+                                                                                                                        "variations": [
+                                                                                                                          {
+                                                                                                                            "move": "d1e1",
+                                                                                                                            "variations": [
+                                                                                                                              {
+                                                                                                                                "move": "d5f3",
+                                                                                                                                "variations": [
+                                                                                                                                  {
+                                                                                                                                    "move": "g2h3",
+                                                                                                                                    "variations": [
+                                                                                                                                      {
+                                                                                                                                        "move": "f3h5"
+                                                                                                                                      }
+                                                                                                                                    ]
+                                                                                                                                  }
+                                                                                                                                ]
+                                                                                                                              }
+                                                                                                                            ]
+                                                                                                                          }
+                                                                                                                        ]
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                    "move": "f6g7",
+                                                                                                                    "variations": [
+                                                                                                                      {
+                                                                                                                        "move": "e8e1",
+                                                                                                                        "variations": [
+                                                                                                                          {
+                                                                                                                            "move": "d1e1",
+                                                                                                                            "variations": [
+                                                                                                                              {
+                                                                                                                                "move": "d5f3",
+                                                                                                                                "variations": [
+                                                                                                                                  {
+                                                                                                                                    "move": "g2h3",
+                                                                                                                                    "variations": [
+                                                                                                                                      {
+                                                                                                                                        "move": "f3h5"
+                                                                                                                                      }
+                                                                                                                                    ]
+                                                                                                                                  }
+                                                                                                                                ]
+                                                                                                                              }
+                                                                                                                            ]
+                                                                                                                          }
+                                                                                                                        ]
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                    "move": "g3g4",
+                                                                                                                    "variations": [
+                                                                                                                      {
+                                                                                                                        "move": "e8e1",
+                                                                                                                        "variations": [
+                                                                                                                          {
+                                                                                                                            "move": "b1c3",
+                                                                                                                            "variations": [
+                                                                                                                              {
+                                                                                                                                "move": "e1g1",
+                                                                                                                                "variations": [
+                                                                                                                                  {
+                                                                                                                                    "move": "g2h3",
+                                                                                                                                    "variations": [
+                                                                                                                                      {
+                                                                                                                                        "move": "h7h5",
+                                                                                                                                        "variations": [
+                                                                                                                                          {
+                                                                                                                                            "move": "d1a4",
+                                                                                                                                            "variations": [
+                                                                                                                                              {
+                                                                                                                                                "move": "b7c6",
+                                                                                                                                                "correct": true,
+                                                                                                                                                "variations": [
+                                                                                                                                                  {
+                                                                                                                                                    "move": "a4c6",
+                                                                                                                                                    "variations": [
+                                                                                                                                                      {
+                                                                                                                                                        "move": "d5c6",
+                                                                                                                                                        "correct": true
+                                                                                                                                                      },
+                                                                                                                                                      {
+                                                                                                                                                        "move": "d7c6",
+                                                                                                                                                        "variations": [
+                                                                                                                                                          {
+                                                                                                                                                            "move": "g4g5",
+                                                                                                                                                            "variations": [
+                                                                                                                                                              {
+                                                                                                                                                                "move": "d5f3",
+                                                                                                                                                                "variations": [
+                                                                                                                                                                  {
+                                                                                                                                                                    "move": "h3h4",
+                                                                                                                                                                    "variations": [
+                                                                                                                                                                      {
+                                                                                                                                                                        "move": "f3g4"
+                                                                                                                                                                      }
+                                                                                                                                                                    ]
+                                                                                                                                                                  }
+                                                                                                                                                                ]
+                                                                                                                                                              }
+                                                                                                                                                            ]
+                                                                                                                                                          }
+                                                                                                                                                        ]
+                                                                                                                                                      }
+                                                                                                                                                    ]
+                                                                                                                                                  }
+                                                                                                                                                ]
+                                                                                                                                              },
+                                                                                                                                              {
+                                                                                                                                                "move": "c7c6",
+                                                                                                                                                "correct": true
+                                                                                                                                              }
+                                                                                                                                            ]
+                                                                                                                                          },
+                                                                                                                                          {
+                                                                                                                                            "move": "d1g1",
+                                                                                                                                            "variations": [
+                                                                                                                                              {
+                                                                                                                                                "move": "h5g4",
+                                                                                                                                                "variations": [
+                                                                                                                                                  {
+                                                                                                                                                    "move": "h3g4",
+                                                                                                                                                    "variations": [
+                                                                                                                                                      {
+                                                                                                                                                        "move": "d5f3",
+                                                                                                                                                        "correct": true,
+                                                                                                                                                        "variations": [
+                                                                                                                                                          {
+                                                                                                                                                            "move": "g4g5",
+                                                                                                                                                            "variations": [
+                                                                                                                                                              {
+                                                                                                                                                                "move": "g7f6",
+                                                                                                                                                                "correct": true
+                                                                                                                                                              },
+                                                                                                                                                              {
+                                                                                                                                                                "move": "h8h5",
+                                                                                                                                                                "correct": true
+                                                                                                                                                              }
+                                                                                                                                                            ]
+                                                                                                                                                          }
+                                                                                                                                                        ]
+                                                                                                                                                      },
+                                                                                                                                                      {
+                                                                                                                                                        "move": "d5h5",
+                                                                                                                                                        "correct": true
+                                                                                                                                                      },
+                                                                                                                                                      {
+                                                                                                                                                        "move": "d5e6",
+                                                                                                                                                        "correct": true
+                                                                                                                                                      }
+                                                                                                                                                    ]
+                                                                                                                                                  }
+                                                                                                                                                ]
+                                                                                                                                              }
+                                                                                                                                            ]
+                                                                                                                                          }
+                                                                                                                                        ]
+                                                                                                                                      }
+                                                                                                                                    ]
+                                                                                                                                  }
+                                                                                                                                ]
+                                                                                                                              }
+                                                                                                                            ]
+                                                                                                                          }
+                                                                                                                        ]
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                ]
+                                                                                                              },
+                                                                                                              {
+                                                                                                                "move": "h8e8",
+                                                                                                                "comment": "Іншою Турою можна зробити те саме, тому, щоб не створювати надто велике розгалуження, продовження буде у гілці ходу іншою Турою.\n\nЗагроза Пішаком на f6 все одно не є серйозною, оскільки Білим буде ніколи її реалізовувати.",
+                                                                                                                "correct": true
+                                                                                                              }
+                                                                                                            ]
+                                                                                                          }
+                                                                                                        ]
+                                                                                                      }
+                                                                                                    ]
+                                                                                                  }
+                                                                                                ]
+                                                                                              }
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      }
+                                                                                    ]
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          },
+                                                                          {
+                                                                            "move": "d1f3",
+                                                                            "comment": "1) Білі захищають свого Пішака.\n2) Обережно: Білі атакували вашу Туру!",
+                                                                            "hint": "Бережіть Туру.",
+                                                                            "variations": [
+                                                                              {
+                                                                                "move": "a8b8",
+                                                                                "correct": true
+                                                                              }
+                                                                            ]
+                                                                          },
+                                                                          {
+                                                                            "move": "d1e2",
+                                                                            "variations": [
+                                                                              {
+                                                                                "move": "c8e6",
+                                                                                "correct": true
+                                                                              }
+                                                                            ]
+                                                                          },
+                                                                          {
+                                                                            "move": "f6g7",
+                                                                            "comment": "Вкрай слабкий хід за Білих, проте зустрічається майже в половині партій на Лічесі.",
+                                                                            "variations": [
+                                                                              {
+                                                                                "move": "f8g7",
+                                                                                "variations": [
+                                                                                  {
+                                                                                    "move": "e1g1",
+                                                                                    "variations": [
+                                                                                      {
+                                                                                        "move": "c8b7",
+                                                                                        "variations": [
+                                                                                          {
+                                                                                            "move": "f2f3",
+                                                                                            "variations": [
+                                                                                              {
+                                                                                                "move": "g7d4",
+                                                                                                "variations": [
+                                                                                                  {
+                                                                                                    "move": "g1h1",
+                                                                                                    "variations": [
+                                                                                                      {
+                                                                                                        "move": "h8g8",
+                                                                                                        "correct": true
+                                                                                                      },
+                                                                                                      {
+                                                                                                        "move": "e8c8",
+                                                                                                        "correct": true
+                                                                                                      }
+                                                                                                    ]
+                                                                                                  }
+                                                                                                ]
+                                                                                              }
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      }
+                                                                                    ]
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "move": "f6d5",
+                                        "comment": "Білі очікують, що ви так походите.",
+                                        "correct": false,
+                                        "variations": [
+                                          {
+                                            "move": "g5f7",
+                                            "variations": [
+                                              {
+                                                "move": "e8f7",
+                                                "variations": [
+                                                  {
+                                                    "move": "d1f3",
+                                                    "comment": "Ваш Король під шахом і Королева тримає вашого Коня під ударом.",
+                                                    "variations": [
+                                                      {
+                                                        "move": "f7g6",
+                                                        "correct": false,
+                                                        "variations": [
+                                                          {
+                                                            "move": "c4d5"
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "move": "f7g8",
+                                                        "correct": false,
+                                                        "variations": [
+                                                          {
+                                                            "move": "c4d5"
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "move": "f7e8",
+                                                        "correct": false,
+                                                        "variations": [
+                                                          {
+                                                            "move": "c4d5"
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "move": "f7e7",
+                                                        "correct": false,
+                                                        "variations": [
+                                                          {
+                                                            "move": "c4d5"
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "move": "d8f6",
+                                                        "correct": false,
+                                                        "variations": [
+                                                          {
+                                                            "move": "c4d5"
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "move": "f7e6",
+                                                        "comment": "Єдиний правильний хід в цій позиції.",
+                                                        "correct": true,
+                                                        "variations": [
+                                                          {
+                                                            "move": "b1c3",
+                                                            "comment": "Але Білі підсилюють тиск."
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
