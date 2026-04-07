@@ -638,6 +638,9 @@ const Import = {
             roots.forEach(r => root.variations.push(buildNode(r, root)));
         }
 
+        if (data.comment) root.comment = data.comment;
+        if (data.hint) root.hint = data.hint;
+
         S.lesson = { name: data.name || 'Урок', student: data.student, startFen: data.start_pos, rootNode: root };
         S.cur = null;
         S.chess = new Chess(data.start_pos);
