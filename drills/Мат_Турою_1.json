@@ -1464,35 +1464,35 @@
                                                   "variations": [
                                                     {
                                                       "move": "d3e3",
+                                                      "comment": "Ви недостатньо наблизилися.",
+                                                      "correct": false
+                                                    },
+                                                    {
+                                                      "move": "d3e4",
                                                       "variations": [
                                                         {
                                                           "move": "f8e8",
                                                           "variations": [
                                                             {
-                                                              "move": "e3d4",
+                                                              "move": "e4d5",
                                                               "variations": [
                                                                 {
                                                                   "move": "e8d8",
                                                                   "variations": [
                                                                     {
-                                                                      "move": "d4c5",
+                                                                      "move": "d5c6",
                                                                       "variations": [
                                                                         {
                                                                           "move": "d8e8",
                                                                           "variations": [
                                                                             {
-                                                                              "move": "c5d5",
+                                                                              "move": "c6d6",
                                                                               "variations": [
                                                                                 {
                                                                                   "move": "e8f8",
                                                                                   "variations": [
                                                                                     {
-                                                                                      "move": "d5e5",
-                                                                                      "comment": "Не забувайте наближатися Королем.",
-                                                                                      "correct": false
-                                                                                    },
-                                                                                    {
-                                                                                      "move": "d5e6",
+                                                                                      "move": "d6e6",
                                                                                       "variations": [
                                                                                         {
                                                                                           "move": "f8g8",
@@ -1527,6 +1527,14 @@
                                                                                   ]
                                                                                 }
                                                                               ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "move": "d8c8",
+                                                                          "variations": [
+                                                                            {
+                                                                              "move": "a7a8"
                                                                             }
                                                                           ]
                                                                         }
