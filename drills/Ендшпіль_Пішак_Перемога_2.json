@@ -1,0 +1,80 @@
+{
+  "name": "Ендшпіль. Пішак. Перемога (2)",
+  "student": "w",
+  "start_pos": "8/5k2/8/8/8/1K1P4/8/8 w - - 0 1",
+  "root": {
+    "move": "b3c4",
+    "variations": [
+      {
+        "move": "f7e6",
+        "variations": [
+          {
+            "move": "c4d4",
+            "comment": "Виникне опозиція, що призведе до нічиєї.",
+            "correct": false,
+            "variations": [
+              {
+                "move": "e6d6"
+              }
+            ]
+          },
+          {
+            "move": "c4c5",
+            "comment": "Якщо між вашими Королем та Пішаком є відстань - опозиція Королів допустима.",
+            "correct": true,
+            "variations": [
+              {
+                "move": "e6d7",
+                "variations": [
+                  {
+                    "move": "c5d5",
+                    "variations": [
+                      {
+                        "move": "d7e7",
+                        "variations": [
+                          {
+                            "move": "d5c6",
+                            "variations": [
+                              {
+                                "move": "e7d8",
+                                "variations": [
+                                  {
+                                    "move": "d3d4",
+                                    "variations": [
+                                      {
+                                        "move": "d8c8",
+                                        "variations": [
+                                          {
+                                            "move": "d4d5",
+                                            "variations": [
+                                              {
+                                                "move": "c8d8",
+                                                "variations": [
+                                                  {
+                                                    "move": "c6d6"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
