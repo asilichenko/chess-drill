@@ -1,0 +1,94 @@
+{
+  "name": "Пішаковий ендшпіль (1)",
+  "student": "w",
+  "start_pos": "2k5/8/8/2PK4/8/8/8/8 w - - 0 1",
+  "comment": "1. Ваш Король прокладає дорогу - він повинен бути попереду Пішака\n\n2. Як тільки ви поставите свого Короля на 6 горизонталь перед Пішаком - ви виграєте:\n• неважливо чий хід\n• неважливо де по вертикалі знаходиться Пішак\n\n3. Ціль вашого Короля - 7 горизонталь\n\n[2 Simple Rules To WIN King & Pawn Endgames Easily by Remote Chess Academy]\nhttps://www.youtube.com/watch?v=w3ig5za3c2M",
+  "root": [
+    {
+      "move": "c5c6",
+      "correct": false
+    },
+    {
+      "move": "d5c6",
+      "correct": true,
+      "variations": [
+        {
+          "move": "c8d8",
+          "variations": [
+            {
+              "move": "c6b7",
+              "variations": [
+                {
+                  "move": "d8d7",
+                  "variations": [
+                    {
+                      "move": "c5c6",
+                      "variations": [
+                        {
+                          "move": "d7d8",
+                          "variations": [
+                            {
+                              "move": "c6c7",
+                              "variations": [
+                                {
+                                  "move": "d8d7",
+                                  "variations": [
+                                    {
+                                      "move": "c7c8q"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "move": "c8b8",
+          "variations": [
+            {
+              "move": "c6d7",
+              "variations": [
+                {
+                  "move": "b8b7",
+                  "variations": [
+                    {
+                      "move": "c5c6",
+                      "variations": [
+                        {
+                          "move": "b7b8",
+                          "variations": [
+                            {
+                              "move": "c6c7",
+                              "variations": [
+                                {
+                                  "move": "b8b7",
+                                  "variations": [
+                                    {
+                                      "move": "c7c8q"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
