@@ -1,0 +1,98 @@
+{
+  "name": "Французький захист за Білих",
+  "student": "w",
+  "start_pos": "rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+  "comment": "https://www.youtube.com/watch?v=39FGUPnnImE\n\nЧорні хочуть наступним ходом піти d5, тож ми створюємо подвійну атаку на це поле.",
+  "root": {
+    "move": "c2c4",
+    "correct": true,
+    "variations": [
+      {
+        "move": "d7d5",
+        "variations": [
+          {
+            "move": "c4d5",
+            "variations": [
+              {
+                "move": "e6d5",
+                "variations": [
+                  {
+                    "move": "d1a4",
+                    "variations": [
+                      {
+                        "move": "c8d7",
+                        "variations": [
+                          {
+                            "move": "a4b3",
+                            "variations": [
+                              {
+                                "move": "d5e4",
+                                "variations": [
+                                  {
+                                    "move": "f1c4",
+                                    "variations": [
+                                      {
+                                        "move": "d8e7",
+                                        "variations": [
+                                          {
+                                            "move": "b3b7",
+                                            "variations": [
+                                              {
+                                                "move": "d7c6",
+                                                "variations": [
+                                                  {
+                                                    "move": "b7c8",
+                                                    "variations": [
+                                                      {
+                                                        "move": "e7d8",
+                                                        "variations": [
+                                                          {
+                                                            "move": "c4f7",
+                                                            "variations": [
+                                                              {
+                                                                "move": "e8f7",
+                                                                "variations": [
+                                                                  {
+                                                                    "move": "c8d8"
+                                                                  }
+                                                                ]
+                                                              },
+                                                              {
+                                                                "move": "e8e7",
+                                                                "variations": [
+                                                                  {
+                                                                    "move": "c8e6"
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
