@@ -1,0 +1,93 @@
+{
+  "name": "Король і Пішак проти Короля • Край дошки",
+  "student": "w",
+  "start_pos": "4k3/8/5K2/4P3/8/8/8/8 w - - 0 1",
+  "root": [
+    {
+      "move": "e5e6",
+      "correct": false,
+      "variations": [
+        {
+          "move": "e8f8",
+          "variations": [
+            {
+              "move": "e6e7",
+              "variations": [
+                {
+                  "move": "f8e8",
+                  "variations": [
+                    {
+                      "move": "f6e6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "move": "f6e6",
+      "correct": true,
+      "variations": [
+        {
+          "move": "e8f8",
+          "variations": [
+            {
+              "move": "e6d7",
+              "variations": [
+                {
+                  "move": "f8f7",
+                  "variations": [
+                    {
+                      "move": "e5e6",
+                      "variations": [
+                        {
+                          "move": "f7f8",
+                          "variations": [
+                            {
+                              "move": "e6e7",
+                              "variations": [
+                                {
+                                  "move": "f8f7",
+                                  "variations": [
+                                    {
+                                      "move": "e7e8q"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "move": "f7f6",
+                          "variations": [
+                            {
+                              "move": "e6e7",
+                              "variations": [
+                                {
+                                  "move": "f6e5",
+                                  "variations": [
+                                    {
+                                      "move": "e7e8q"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
