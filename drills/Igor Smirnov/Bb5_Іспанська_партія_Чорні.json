@@ -19,7 +19,62 @@
                     "move": "d8g5",
                     "variations": [
                       {
-                        "move": "d2d4"
+                        "move": "d2d4",
+                        "variations": [
+                          {
+                            "move": "g5g2",
+                            "variations": [
+                              {
+                                "move": "h1f1",
+                                "variations": [
+                                  {
+                                    "move": "c8g4",
+                                    "correct": false,
+                                    "variations": [
+                                      {
+                                        "move": "e5g4"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "move": "c8h3",
+                                    "correct": true,
+                                    "variations": [
+                                      {
+                                        "move": "d1e2",
+                                        "variations": [
+                                          {
+                                            "move": "c5d4",
+                                            "variations": [
+                                              {
+                                                "move": "e5f3",
+                                                "variations": [
+                                                  {
+                                                    "move": "h3g4",
+                                                    "variations": [
+                                                      {
+                                                        "move": "b1d2",
+                                                        "variations": [
+                                                          {
+                                                            "move": "e8c8"
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
                       },
                       {
                         "move": "e5f3",
