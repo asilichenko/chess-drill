@@ -1,0 +1,171 @@
+{
+  "name": "Bg4: зв'язка Ферзя. Як отримати перевагу за Білих",
+  "student": "w",
+  "start_pos": "rn1qkbnr/ppp1pppp/8/8/6b1/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 1",
+  "comment": "https://www.youtube.com/watch?v=hXTNH3cWfOg\n\nВаша задача - активно контратакувати, з метою отримати перевагу.",
+  "root": [
+    {
+      "move": "f1c4",
+      "comment": "Активний хід, що створює проблеми опоненту.",
+      "correct": true,
+      "variations": [
+        {
+          "move": "e7e6",
+          "comment": "49%"
+        },
+        {
+          "move": "g4f3",
+          "comment": "16%"
+        },
+        {
+          "move": "g8f6",
+          "comment": "13%",
+          "variations": [
+            {
+              "move": "c4f7",
+              "variations": [
+                {
+                  "move": "e8f7",
+                  "variations": [
+                    {
+                      "move": "f3e5",
+                      "variations": [
+                        {
+                          "move": "f7e8",
+                          "variations": [
+                            {
+                              "move": "e5g4"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "move": "f3e5",
+              "variations": [
+                {
+                  "move": "g4d1",
+                  "comment": "47%",
+                  "variations": [
+                    {
+                      "move": "c4f7"
+                    }
+                  ]
+                },
+                {
+                  "move": "g4e6",
+                  "comment": "25%",
+                  "variations": [
+                    {
+                      "move": "c4e6",
+                      "variations": [
+                        {
+                          "move": "f7e6"
+                        }
+                      ]
+                    },
+                    {
+                      "move": "d1f3"
+                    },
+                    {
+                      "move": "e1g1"
+                    }
+                  ]
+                },
+                {
+                  "move": "g4h5",
+                  "comment": "6%",
+                  "variations": [
+                    {
+                      "move": "d1h5",
+                      "correct": true,
+                      "variations": [
+                        {
+                          "move": "f6h5",
+                          "variations": [
+                            {
+                              "move": "c4f7"
+                            }
+                          ]
+                        },
+                        {
+                          "move": "e7e6",
+                          "variations": [
+                            {
+                              "move": "h5f7"
+                            }
+                          ]
+                        },
+                        {
+                          "move": "g7g6",
+                          "variations": [
+                            {
+                              "move": "c4f7"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "move": "e7e6",
+                  "comment": "16%",
+                  "variations": [
+                    {
+                      "move": "e5g4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "move": "b8c6",
+          "comment": "8%",
+          "variations": [
+            {
+              "move": "c4f7",
+              "variations": [
+                {
+                  "move": "e8f7",
+                  "variations": [
+                    {
+                      "move": "f3g5",
+                      "variations": [
+                        {
+                          "move": "f7e8",
+                          "variations": [
+                            {
+                              "move": "d1g4",
+                              "comment": "Оцінка позиції: +2,3"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "move": "h2h3",
+      "comment": "Надто пасивно. Є кращий, більш активний хід.",
+      "correct": false
+    },
+    {
+      "move": "f1e2",
+      "comment": "Надто пасивно. Є кращий, більш активний хід.",
+      "correct": false
+    }
+  ]
+}
