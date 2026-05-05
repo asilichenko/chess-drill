@@ -1,0 +1,89 @@
+{
+  "name": "Bb5 • Іспанська партія • Чорні",
+  "student": "b",
+  "start_pos": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+  "comment": "https://www.youtube.com/watch?v=AYj__F4Ltig",
+  "root": {
+    "move": "f8c5",
+    "variations": [
+      {
+        "move": "b5c6",
+        "variations": [
+          {
+            "move": "d7c6",
+            "variations": [
+              {
+                "move": "f3e5",
+                "variations": [
+                  {
+                    "move": "d8g5",
+                    "variations": [
+                      {
+                        "move": "d2d4"
+                      },
+                      {
+                        "move": "e5f3",
+                        "variations": [
+                          {
+                            "move": "g5g2",
+                            "variations": [
+                              {
+                                "move": "h1g1",
+                                "variations": [
+                                  {
+                                    "move": "g2g1",
+                                    "correct": false,
+                                    "variations": [
+                                      {
+                                        "move": "f3g1"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "move": "g2f2"
+                                  }
+                                ]
+                              },
+                              {
+                                "move": "h1f1",
+                                "variations": [
+                                  {
+                                    "move": "c8g4",
+                                    "variations": [
+                                      {
+                                        "move": "f3h4",
+                                        "variations": [
+                                          {
+                                            "move": "g2e4",
+                                            "variations": [
+                                              {
+                                                "move": "d1e2",
+                                                "variations": [
+                                                  {
+                                                    "move": "e4e2"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
