@@ -1,0 +1,155 @@
+{
+  "name": "Король та Пішак проти Короля",
+  "student": "b",
+  "start_pos": "8/8/4kp2/8/6K1/8/8/8 b - - 0 3",
+  "root": {
+    "move": "e6e5",
+    "variations": [
+      {
+        "move": "g4g3",
+        "variations": [
+          {
+            "move": "e5e4",
+            "variations": [
+              {
+                "move": "g3f2",
+                "variations": [
+                  {
+                    "move": "e4f4",
+                    "correct": true,
+                    "variations": [
+                      {
+                        "move": "f2g2",
+                        "variations": [
+                          {
+                            "move": "f4e3",
+                            "variations": [
+                              {
+                                "move": "g2f1",
+                                "variations": [
+                                  {
+                                    "move": "e3f3",
+                                    "variations": [
+                                      {
+                                        "move": "f1g1",
+                                        "variations": [
+                                          {
+                                            "move": "f3g3",
+                                            "correct": true
+                                          },
+                                          {
+                                            "move": "f3e3",
+                                            "correct": true
+                                          },
+                                          {
+                                            "move": "f6f5",
+                                            "correct": true
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "move": "f6f5",
+                    "correct": false,
+                    "variations": [
+                      {
+                        "move": "f2e2",
+                        "variations": [
+                          {
+                            "move": "f5f4",
+                            "variations": [
+                              {
+                                "move": "e2f2",
+                                "variations": [
+                                  {
+                                    "move": "f4f3",
+                                    "variations": [
+                                      {
+                                        "move": "f2f1",
+                                        "variations": [
+                                          {
+                                            "move": "e4e3",
+                                            "variations": [
+                                              {
+                                                "move": "f1e1",
+                                                "variations": [
+                                                  {
+                                                    "move": "f3f2",
+                                                    "variations": [
+                                                      {
+                                                        "move": "e1f1"
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "move": "e4f4",
+                                            "variations": [
+                                              {
+                                                "move": "f1f2",
+                                                "variations": [
+                                                  {
+                                                    "move": "f4e4",
+                                                    "variations": [
+                                                      {
+                                                        "move": "f2f1",
+                                                        "variations": [
+                                                          {
+                                                            "move": "e4e3",
+                                                            "variations": [
+                                                              {
+                                                                "move": "f1e1",
+                                                                "variations": [
+                                                                  {
+                                                                    "move": "f3f2",
+                                                                    "variations": [
+                                                                      {
+                                                                        "move": "e1f1"
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
