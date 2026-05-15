@@ -957,6 +957,40 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "move": "f1b5",
+                    "comment": "хід не з відео\nLichess [Masters database]",
+                    "variations": [
+                      {
+                        "move": "c8d7",
+                        "variations": [
+                          {
+                            "move": "c2c4",
+                            "variations": [
+                              {
+                                "move": "d7b5",
+                                "variations": [
+                                  {
+                                    "move": "c4b5",
+                                    "variations": [
+                                      {
+                                        "move": "f6d5",
+                                        "correct": false
+                                      },
+                                      {
+                                        "move": "d8d5",
+                                        "correct": true
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
