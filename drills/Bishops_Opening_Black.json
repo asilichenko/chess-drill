@@ -1,0 +1,256 @@
+{
+  "name": "Bishop's Opening. Black",
+  "student": "b",
+  "start_pos": "rnbqkb1r/pppp1ppp/5n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+  "comment": "https://youtu.be/ls7IzYZGbFE?t=359",
+  "root": {
+    "move": "f6e4",
+    "correct": true,
+    "variations": [
+      {
+        "move": "f3e5",
+        "variations": [
+          {
+            "move": "d7d5",
+            "correct": true,
+            "variations": [
+              {
+                "move": "c4b3",
+                "variations": [
+                  {
+                    "move": "d8g5",
+                    "variations": [
+                      {
+                        "move": "d2d4",
+                        "variations": [
+                          {
+                            "move": "g5g2",
+                            "variations": [
+                              {
+                                "move": "h1f1",
+                                "variations": [
+                                  {
+                                    "move": "c8h3",
+                                    "variations": [
+                                      {
+                                        "move": "d1e2",
+                                        "variations": [
+                                          {
+                                            "move": "g2f1",
+                                            "variations": [
+                                              {
+                                                "move": "e2f1",
+                                                "variations": [
+                                                  {
+                                                    "move": "h3f1",
+                                                    "variations": [
+                                                      {
+                                                        "move": "e1f1"
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "move": "e1g1",
+                        "variations": [
+                          {
+                            "move": "g5e5",
+                            "variations": [
+                              {
+                                "move": "d2d3",
+                                "variations": [
+                                  {
+                                    "move": "e4f6",
+                                    "correct": false,
+                                    "variations": [
+                                      {
+                                        "move": "f1e1"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "move": "e4f2",
+                                    "variations": [
+                                      {
+                                        "move": "f1f2",
+                                        "variations": [
+                                          {
+                                            "move": "f8c5"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "move": "f8d6",
+                                    "correct": true,
+                                    "variations": [
+                                      {
+                                        "move": "g2g3",
+                                        "variations": [
+                                          {
+                                            "move": "e4g5",
+                                            "variations": [
+                                              {
+                                                "move": "f2f4",
+                                                "variations": [
+                                                  {
+                                                    "move": "g5h3",
+                                                    "variations": [
+                                                      {
+                                                        "move": "g1g2",
+                                                        "variations": [
+                                                          {
+                                                            "move": "e5f5"
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "move": "f1e1",
+                                                "variations": [
+                                                  {
+                                                    "move": "g5f3",
+                                                    "variations": [
+                                                      {
+                                                        "move": "g1f1",
+                                                        "variations": [
+                                                          {
+                                                            "move": "c8h3"
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "move": "d1f3",
+                                                        "variations": [
+                                                          {
+                                                            "move": "e5e1",
+                                                            "variations": [
+                                                              {
+                                                                "move": "g1g2",
+                                                                "variations": [
+                                                                  {
+                                                                    "move": "e1c1",
+                                                                    "variations": [
+                                                                      {
+                                                                        "move": "b3d5",
+                                                                        "variations": [
+                                                                          {
+                                                                            "move": "e8g8"
+                                                                          },
+                                                                          {
+                                                                            "move": "c1b2"
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "move": "e5f3",
+                        "variations": [
+                          {
+                            "move": "g5g2",
+                            "variations": [
+                              {
+                                "move": "h1g1",
+                                "variations": [
+                                  {
+                                    "move": "g2f2",
+                                    "correct": true
+                                  }
+                                ]
+                              },
+                              {
+                                "move": "h1f1",
+                                "variations": [
+                                  {
+                                    "move": "c8g4",
+                                    "variations": [
+                                      {
+                                        "move": "f3h4",
+                                        "variations": [
+                                          {
+                                            "move": "g2h3",
+                                            "variations": [
+                                              {
+                                                "move": "f2f3",
+                                                "variations": [
+                                                  {
+                                                    "move": "h3h4"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "move": "g2f1",
+                                            "variations": [
+                                              {
+                                                "move": "e1f1",
+                                                "variations": [
+                                                  {
+                                                    "move": "g4d1"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
