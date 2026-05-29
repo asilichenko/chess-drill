@@ -721,3 +721,25 @@ body {
 .piece:active {
     cursor: grabbing;
 }
+
+/* ── FOOTER ─────────────────────────────────────────────────── */
+
+.site-footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+
+    background:
+        linear-gradient(
+            to bottom,
+            var(--bg2),
+            var(--bg)
+        );
+
+    color: #8e95bd;
+
+    border-top: 1px solid var(--border2);
+
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.03);
+}
