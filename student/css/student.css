@@ -45,6 +45,10 @@ body {
     font-size: 13px;
     line-height: 1.5;
     min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
     padding: 18px 20px;
     /* subtle grain */
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.025'/%3E%3C/svg%3E");
@@ -68,6 +72,7 @@ body {
     max-width: 1060px;
     margin: 0 auto;
     align-items: flex-start;
+    flex: 1;
 }
 
 /* ── BOARD COLUMN ──────────────────────────────────────── */
@@ -884,4 +889,27 @@ body {
 .message-success {
     color: var(--green);
     border-color: var(--green);
+}
+
+
+/* ── FOOTER ─────────────────────────────────────────────────── */
+
+.site-footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+
+    background:
+        linear-gradient(
+            to bottom,
+            var(--bg2),
+            var(--bg)
+        );
+
+    color: #8e95bd;
+
+    border-top: 1px solid var(--border2);
+
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.03);
 }
