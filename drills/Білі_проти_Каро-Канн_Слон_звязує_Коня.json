@@ -1,0 +1,90 @@
+{
+  "name": "Білі проти Каро-Канн. Слон зв'язує Коня",
+  "student": "w",
+  "start_pos": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+  "root": {
+    "move": "e2e4",
+    "variations": [
+      {
+        "move": "c7c6",
+        "variations": [
+          {
+            "move": "g1f3",
+            "variations": [
+              {
+                "move": "d7d5",
+                "variations": [
+                  {
+                    "move": "e4d5",
+                    "variations": [
+                      {
+                        "move": "c6d5",
+                        "variations": [
+                          {
+                            "move": "d2d4",
+                            "comment": "В цій позиції розглядаємо вивід Слона для зв'язування Коня.",
+                            "variations": [
+                              {
+                                "move": "c8g4",
+                                "comment": "Робимо підготовчий хід Пішаком.",
+                                "variations": [
+                                  {
+                                    "move": "c2c3",
+                                    "comment": "В цій позиції важливо, щоб Чорні закрили хвіртку за Слоном, щоб він не міг повернутися на захист Короля.",
+                                    "variations": [
+                                      {
+                                        "move": "e7e6",
+                                        "comment": "І тепер починаємо атаку Короля.",
+                                        "variations": [
+                                          {
+                                            "move": "d1a4",
+                                            "variations": [
+                                              {
+                                                "move": "b8c6",
+                                                "variations": [
+                                                  {
+                                                    "move": "f3e5"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "move": "d8d7",
+                                                "variations": [
+                                                  {
+                                                    "move": "f1b5",
+                                                    "variations": [
+                                                      {
+                                                        "move": "b8c6",
+                                                        "variations": [
+                                                          {
+                                                            "move": "f3e5"
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
