@@ -1,0 +1,267 @@
+{
+  "name": "Італійська партія-2026-06-21",
+  "student": "w",
+  "start_pos": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+  "comment": "https://www.chess.com/game/170515139888",
+  "root": {
+    "move": "e2e4",
+    "variations": [
+      {
+        "move": "e7e5",
+        "variations": [
+          {
+            "move": "g1f3",
+            "variations": [
+              {
+                "move": "d7d6",
+                "variations": [
+                  {
+                    "move": "f1c4",
+                    "comment": "ок, але можна було краще.",
+                    "variations": [
+                      {
+                        "move": "b8c6",
+                        "comment": "агресивно наступаємо",
+                        "variations": [
+                          {
+                            "move": "d2d4",
+                            "variations": [
+                              {
+                                "move": "e5d4",
+                                "variations": [
+                                  {
+                                    "move": "f3d4",
+                                    "variations": [
+                                      {
+                                        "move": "c6d4",
+                                        "variations": [
+                                          {
+                                            "move": "d1d4"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "move": "f8e7",
+                                        "comment": "це - підготовка до рокіровки, тому - робимо рокіровку самі",
+                                        "variations": [
+                                          {
+                                            "move": "e1g1",
+                                            "variations": [
+                                              {
+                                                "move": "g8f6",
+                                                "comment": "розвиток Коня + захист Пішака",
+                                                "variations": [
+                                                  {
+                                                    "move": "b1c3",
+                                                    "variations": [
+                                                      {
+                                                        "move": "e8g8",
+                                                        "comment": "Розвиваємо другого Слона.\nВитрачати хід на розмін Коней - не варто.",
+                                                        "variations": [
+                                                          {
+                                                            "move": "c1f4"
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "move": "c8e6",
+                                "comment": "типовий бландер на вилку на Коня і Слона",
+                                "variations": [
+                                  {
+                                    "move": "d4d5",
+                                    "comment": "тут Чорним бажано було рятувати Слона, але...",
+                                    "variations": [
+                                      {
+                                        "move": "e6d5",
+                                        "variations": [
+                                          {
+                                            "move": "d1d5",
+                                            "comment": "найкращий хід",
+                                            "correct": true
+                                          },
+                                          {
+                                            "move": "c4d5",
+                                            "comment": "допустимо",
+                                            "variations": [
+                                              {
+                                                "move": "c6e7",
+                                                "comment": "передаємо \"вітання\" Турі",
+                                                "variations": [
+                                                  {
+                                                    "move": "d5b7",
+                                                    "correct": true,
+                                                    "variations": [
+                                                      {
+                                                        "move": "a8b8",
+                                                        "variations": [
+                                                          {
+                                                            "move": "b7a6",
+                                                            "correct": true,
+                                                            "variations": [
+                                                              {
+                                                                "move": "b8b6",
+                                                                "variations": [
+                                                                  {
+                                                                    "move": "d1d3",
+                                                                    "comment": "не надто добре, але партію все одно було виграно"
+                                                                  },
+                                                                  {
+                                                                    "move": "d1e2",
+                                                                    "comment": "краще"
+                                                                  },
+                                                                  {
+                                                                    "move": "a6c4",
+                                                                    "comment": "найкращий хід",
+                                                                    "correct": true
+                                                                  },
+                                                                  {
+                                                                    "move": "a6d3",
+                                                                    "comment": "ок"
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "move": "b7d5",
+                                                            "comment": "допустимо",
+                                                            "variations": [
+                                                              {
+                                                                "move": "e7d5",
+                                                                "variations": [
+                                                                  {
+                                                                    "move": "d1d5",
+                                                                    "correct": true
+                                                                  },
+                                                                  {
+                                                                    "move": "e4d5"
+                                                                  }
+                                                                ]
+                                                              },
+                                                              {
+                                                                "move": "g8f6",
+                                                                "comment": "додаємо захисту Слону",
+                                                                "variations": [
+                                                                  {
+                                                                    "move": "b1c3"
+                                                                  },
+                                                                  {
+                                                                    "move": "d5b3",
+                                                                    "comment": "ок"
+                                                                  },
+                                                                  {
+                                                                    "move": "e1g1",
+                                                                    "comment": "ок"
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "move": "g8f6",
+                                                "comment": "в цьому випадку - просто рятуємо Слона",
+                                                "variations": [
+                                                  {
+                                                    "move": "d5b3",
+                                                    "correct": true
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "move": "e4d5",
+                                            "comment": "допустимо"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "move": "d2d4",
+                    "correct": true,
+                    "variations": [
+                      {
+                        "move": "e5d4",
+                        "variations": [
+                          {
+                            "move": "f3d4",
+                            "variations": [
+                              {
+                                "move": "g8f6",
+                                "comment": "атака на Пішака - захищаємо",
+                                "variations": [
+                                  {
+                                    "move": "b1c3",
+                                    "variations": [
+                                      {
+                                        "move": "b8c6",
+                                        "comment": "атака на Коня - пришпилюємо",
+                                        "variations": [
+                                          {
+                                            "move": "f1b5",
+                                            "variations": [
+                                              {
+                                                "move": "c8d7",
+                                                "comment": "Коня можна брати",
+                                                "variations": [
+                                                  {
+                                                    "move": "b5c6",
+                                                    "variations": [
+                                                      {
+                                                        "move": "b7c6",
+                                                        "comment": "Пожертвували Слоном, але здвоїли Пішаків і заблокували ворожого Слона"
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
