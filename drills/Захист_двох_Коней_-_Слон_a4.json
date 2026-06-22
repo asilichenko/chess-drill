@@ -63,7 +63,13 @@
                                                                             "move": "c6a7",
                                                                             "variations": [
                                                                               {
-                                                                                "move": "c5a7"
+                                                                                "move": "c5a7",
+                                                                                "comment": "Оцінка позиції: -4,0"
+                                                                              },
+                                                                              {
+                                                                                "move": "a8a7",
+                                                                                "comment": "Оцінка позиції: -4,0",
+                                                                                "correct": true
                                                                               }
                                                                             ]
                                                                           }
@@ -104,12 +110,14 @@
                               },
                               {
                                 "move": "a5c6",
+                                "comment": "допустимо, але є кращий варіант",
                                 "variations": [
                                   {
                                     "move": "b5c6",
                                     "variations": [
                                       {
-                                        "move": "b7c6"
+                                        "move": "b7c6",
+                                        "comment": "Оцінка позиції: +0,4\nТемп у Білих"
                                       }
                                     ]
                                   }
