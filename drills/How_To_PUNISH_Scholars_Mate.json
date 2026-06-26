@@ -568,6 +568,80 @@
                                 ]
                               }
                             ]
+                          },
+                          {
+                            "move": "f3d3",
+                            "comment": "https://lichess.org/Kd4Pr8Jx/black#9",
+                            "variations": [
+                              {
+                                "move": "f8g7",
+                                "comment": "ok"
+                              },
+                              {
+                                "move": "d7d5",
+                                "correct": true
+                              },
+                              {
+                                "move": "c6d4",
+                                "correct": true,
+                                "variations": [
+                                  {
+                                    "move": "c2c3",
+                                    "variations": [
+                                      {
+                                        "move": "d7d5",
+                                        "correct": true,
+                                        "variations": [
+                                          {
+                                            "move": "e4d5",
+                                            "variations": [
+                                              {
+                                                "move": "c8f5"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "move": "c3d4",
+                                            "variations": [
+                                              {
+                                                "move": "d5c4",
+                                                "correct": true,
+                                                "variations": [
+                                                  {
+                                                    "move": "d3c4",
+                                                    "comment": "Далі потрібно міняти Ферзів.",
+                                                    "variations": [
+                                                      {
+                                                        "move": "d8d4",
+                                                        "correct": true,
+                                                        "variations": [
+                                                          {
+                                                            "move": "c4d4",
+                                                            "variations": [
+                                                              {
+                                                                "move": "e5d4"
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "move": "d4c6",
+                                        "correct": false
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
                           }
                         ]
                       }
